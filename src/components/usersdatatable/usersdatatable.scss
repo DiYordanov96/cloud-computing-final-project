@@ -1,0 +1,74 @@
+.userDataTable{
+    height: 500px;
+    padding: 30px;
+
+    .userDataTableTitle{
+        width: 100%;
+        font-size: 17px;
+        display: flex;
+        margin-bottom: 15px;
+        align-items: center;
+        justify-content: flex-start;
+
+        .link{
+            text-decoration: none;
+            border: 1px solid grey;
+            border-radius: 5px;
+            background-color: whitesmoke;
+            color: grey;
+            padding: 6px;
+            cursor: pointer;
+        }
+    }
+
+
+
+
+    .cellWithStatus{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.active{
+            background-color: rgba(34, 236, 34, 0.398);
+            color: rgb(5, 184, 5);
+            width: 70px;
+        }
+        &.pending{
+            background-color: rgba(252, 252, 52, 0.399);
+            color: rgba(248, 211, 46, 0.892);
+            width: 70px;
+        }
+        &.declined{
+            background-color: rgba(255, 0, 0, 0.235);
+            color: red;
+            width:70px;
+        }
+    }
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        .viewButton{
+            padding: 2px 5px;
+            border: 2px solid rgba(63, 156, 238, 0.852);
+            border-radius: 5px;
+            width: 50px;
+            color: rgba(63, 156, 238, 0.852);
+            background-color: white;
+            text-align: center;
+            cursor: pointer;
+        }
+        .deleteButton{
+            padding: 2px 5px;
+            border: 2px solid rgba(255, 0, 0, 0.438);
+            border-radius: 5px;
+            width: 50px;
+            color: rgba(255, 0, 0, 0.438);
+            background-color: white;
+            text-align: center;
+            cursor: pointer;
+        }
+
+    }
+}

@@ -1,0 +1,71 @@
+.app.dark{
+    background-color: rgba(0, 0, 0, 0.884);
+    color: rgb(156, 156, 156);
+
+    .widget{
+        background-color: rgba(0, 0, 0, 0.909);
+        -webkit-box-shadow: 6px 4px 17px -1px rgba(213, 213, 213, 0.32);
+        -moz-box-shadow: 6px 4px 17px -1px rgba(213, 213, 213, 0.32);
+        box-shadow: 6px 4px 17px -1px rgba(213, 213, 213, 0.32);
+        color: lightgrey;
+    }
+
+    .tableContainer,.userDataTable{
+        background-color: rgba(0, 0, 0, 0.909);
+        -webkit-box-shadow: 6px 4px 17px -1px rgba(213, 213, 213, 0.32);
+        -moz-box-shadow: 6px 4px 17px -1px rgba(213, 213, 213, 0.32);
+        box-shadow: 6px 4px 17px -1px rgba(213, 213, 213, 0.32);
+        
+        .link{
+            background-color: transparent;
+            border-color: rgba(46, 136, 247, 0.989);
+            color: rgba(46, 136, 247, 0.989);
+        }
+        
+        .tableCell{
+            color: gray;
+        }
+
+    }
+
+    .sidebar{
+        background-color: rgba(0, 0, 0, 0.068);
+
+        .top{
+            .logo{
+                color:gray;
+            }
+        }
+
+        ul{
+            li{
+                &:hover{
+                    background-color: rgba(128, 128, 128, 0.248);
+                }
+
+                .icon{
+                    color: gray;
+                }
+            }
+        }
+    }
+
+    .userDataTable{
+        .userDataGrid{
+            color: gray;
+            border: none;
+
+            .viewButton, .deleteButton{
+                color: gray;
+                border: none;
+                background-color: transparent;
+            }
+        }
+
+    }
+
+    input{
+        background-color: transparent;
+
+    }
+}

@@ -1,0 +1,37 @@
+.home{
+    display: flex;
+    width: 100%;
+    
+    .homeContainer{
+        flex:6;
+
+        .widgets{
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            gap: 40px;
+
+        }
+
+        .listContainer{
+            
+
+            .firstTable{
+                margin-top: 40px;
+                padding: 20px 30px 10px 30px;
+            }
+
+            .secondTable{
+                margin-top: 40px;
+                padding: 20px 30px 10px 30px;
+            }
+
+
+            .listTitle{
+                font-weight: bold;
+                color: #999;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

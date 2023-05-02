@@ -1,0 +1,31 @@
+.table{
+    height: 500px;
+    padding: 30px;
+
+    
+    
+    .status{
+        width: 100px;
+        padding: 10px;
+        border-radius: 5px;
+
+        &.Aproved{
+            background-color: rgba(34, 236, 34, 0.398);
+            color: rgba(7, 230, 7, 0.72);
+            width: 100px;
+        }
+
+        &.Pending{
+            background-color: rgba(252, 252, 52, 0.399);
+            color: rgba(226, 186, 6, 0.892);
+            width: 100px;
+        }
+
+        &.Declined{
+            color: red ;
+            background-color: rgba(162, 54, 27, 0.326);
+            width: 100px;
+        }
+
+    }
+}
